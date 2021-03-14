@@ -1,0 +1,15 @@
+    The input is expected to be of the following format:
+        --command option value
+    Available commands are:
+        count   -   returns the number of matching records
+        print-full-records  -   returns all the matching records
+    Options are:
+        eventID
+        type
+        agency
+        borough
+        communityboard
+        policeprecinct
+        category
+        zipcode
+    Value is any search value. Only single words are supported now.
