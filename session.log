@@ -1,0 +1,40 @@
+ls
+mkdir Lab5
+cd Lab5/
+curl -o filmPermits.csv https://data.cityofnewyork.us/api/views/tg4x-b46p/rows.csv?accessType=DOWNLOAD
+ls
+open .
+touch queryFilms.sh
+vim queryFilms.sh
+sh queryFilms.sh
+vim queryFilms.sh
+sh queryFilms.sh
+vim queryFilms.sh
+sh queryFilms.sh
+vim queryFilms.sh
+sh queryFilms.sh
+awk --version
+gawk --version
+brew install gawk
+gawk --version
+vim queryFilms.sh
+sh queryFilms.sh
+sh queryFilms.sh
+sh queryFilms.sh
+touch session.log
+touch help.txt
+touch README.md
+vim help.txt
+mv help.txt ../assets
+mv filmPermits.csv ../assets
+ls
+vim queryFilms.sh
+sh queryFilms.sh
+git init
+git add .
+git commit -m 'initial commit'
+git remote add origin git@github.com:VPoshelyuk/CISC3140-Lab5.git
+git push -u origin
+vim session.log
+vim README.md
+history | tail -50
